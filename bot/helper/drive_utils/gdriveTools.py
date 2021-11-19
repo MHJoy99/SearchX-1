@@ -196,7 +196,7 @@ class GoogleDriveHelper:
             return "I ..I found nothing of that sort :(", None
 
         for content in self.telegraph_content :
-            self.path.append(telegra_ph.create_page(title = 'SearchX',
+            self.path.append(telegra_ph.create_page(title = 'MHJoyBots',
                                                     html_content=content )['path'])
 
         self.num_of_path = len(self.path)
